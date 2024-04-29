@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h2>Time slider</h2>
+        </header>
+        <div class="slider">
+            <input type="range" min="0" max="23" step="1" value="0" id="slider">
+            <p id="upd">0</p>
+        </div>
+        <div class="lead">
+            <button onclick="dmsg()"> Update </button>
+            <h2 id="dmsg"> Time </h2>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
